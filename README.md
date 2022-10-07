@@ -10,6 +10,7 @@ git push -u origin main
 - add aws credentials on the variables
 
 ```sh
+terraform login
 terraform init
 terraform apply --auto-approve
 ```
